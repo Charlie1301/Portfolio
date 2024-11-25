@@ -1,7 +1,13 @@
-import Image from "next/image";
+import Link from 'next/link';
+import React from 'react'
 
-export default function Home() {
+const page = () => {
   return (
-    <p>My work here is done.</p>
-  );
+    <>
+    <div>page</div>
+    <Link href="/About">About me!</Link>
+    </>
+  )
 }
+
+export default page
